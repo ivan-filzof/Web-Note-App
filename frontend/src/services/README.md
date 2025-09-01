@@ -73,7 +73,7 @@ await NotesService.deleteNote(id);
 
 The API base URL is configured in `api.ts`:
 ```typescript
-baseURL: 'http://localhost:8000/api'
+baseURL: 'http://127.0.0.1:8000/api'
 ```
 
 Make sure your Laravel backend is running on port 8000 and has CORS properly configured.
